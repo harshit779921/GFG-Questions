@@ -1,6 +1,5 @@
 class Solution:
     def leaders(self, arr):
-        # code here
         result = []
         maxRight = float('-inf')
         
@@ -9,4 +8,4 @@ class Solution:
                 maxRight = x
                 result.append(x)
                 
-        return result[::-1] 
+        return result[::-1]
